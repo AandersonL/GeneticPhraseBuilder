@@ -10,7 +10,6 @@ def main():
     else:
         target = sys.argv[1]
     p = Population.Population(tam_pop, mRate, target)
-    cicle = 0
     print("The program will build the phrase '{}'".format(target))
     time.sleep(2)
     while not p.isFinished():
